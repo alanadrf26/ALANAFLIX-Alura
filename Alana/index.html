@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix</title>
+    <style>
+        .container{
+            background-color: rgb(204, 152, 204);
+        }
+        .principal{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 60px;
+            color: rgb(241, 228, 228);
+        }
+        .conteudo h2{
+            font-size: 35px;
+        }
+        .conteudo p{
+            font-size: 20px;
+        }
+        .titulo{
+            background-color: black;
+            color: rgb(69, 69, 236);
+            font-weight: normal;
+            padding: 5px 30px;
+        }
+        .filmes{
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+        }
+        .titulo_filme{
+            color:rgb(69, 69, 236);
+            font-size: 20px;
+            margin-top: 60px;
+        }
+        .filmes div{
+            padding: 0px 80px;
+        }
+        .videos{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .iframe{
+            width: 250px;
+            height: 200px;
+            opacity: 0.5;
+        }
+        .iframe:hover{
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="titulo">
+        <h1>ALANAFLIX</h1>
+    </div>
+    <div class="principal">
+        <div class="conteudo">
+            <h2>ATRAVÉS DO ARANHAVERSO</h2>
+            <p>#homeam-aranha</p>
+        </div>
+        <div class="vidio_principal">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=XHKkc5vR7Ul8d0sy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="filmes">
+        <div class="titulo_filme">
+            <h3>Filmes e Séries</h3>
+        </div>
+        <div class="videos">
+            <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/cs15QqG6Gjc?si=W1W7aItx8hQ4l7II" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/WUfGYcqSZG8?si=Sev2RP3YM8cuxKcb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/P2HSoCDih0w?si=FShxu5etsBypowfJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/wE8hYGaHhLs?si=4A_PFIgB25T3yI99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+    </div>
+</div>
+</body>
+</html
